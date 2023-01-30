@@ -1,0 +1,72 @@
+body {
+    font-family: 'Klee One', cursive;
+}
+
+header {
+    position: relative;
+    width: 900px;
+    height: 200px;
+    background-image: url(../design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    top: 20px;
+    left: 30px;
+}
+
+h1 {
+    margin-left: 10px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+
+.bajoheader {
+    width: 900px;
+    height: 50px;
+    background-color: black;
+    position: relative;
+    left: 30px;
+}
+
+.bajoheader>h2 {
+    color: aliceblue;
+    margin-left: 300px;
+}
+
+
+main {
+    width: 900px;
+}
+
+
+
+.link {
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+
+article {
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    width: 400px;
+}
+
+article>h2 {
+    font-size: 18px;
+}
+
+.verde, .azul {
+    width: 70px;
+    height: 100;
+    margin-bottom: 90px;
+}
+
+#logo {
+    margin: -80px 0px 0px 650px;
+}
+
+.fecha {
+    color: rgb(0, 0, 0);
+}
