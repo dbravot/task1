@@ -1,65 +1,64 @@
 body {
     font-family: 'Klee One', cursive;
+    margin: 0;
 }
 
 header {
     position: relative;
-    top: 30px;
-    left: 30px;
-    width: 900px;
-    height: 200px;
-    background-image: url(../design1_image1.jpg);
+
+    height: 300px;
+    background-image: url(../imagenes/design2_image1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
 }
- header>h1 {
+
+header>h1 {
     position: relative;
-/*     margin-left: 10px;
- */    display: inline-block;
+    display: inline-block;
     color: rgb(0, 0, 0);
     bottom: 65px;
-    
-} 
+
+}
 
 .bajoheader {
-    width: 900px;
     height: 50px;
     background-color: black;
     position: relative;
-    left: 30px;
 }
 
 .bajoheader>h2 {
     color: aliceblue;
-    margin-left: 300px;
+    text-align: center;
 }
 
 
 
 
 .link {
-    display: inline-block;
-    position: relative;
-    bottom: 285px;
-    left: 570px;
-    margin: 30px;
-    
+    display: flex;
+justify-content: end;
+position: relative;
+bottom: 350px;
+  
+
 }
+
 .link>a {
 
     color: rgb(255, 255, 255);
     text-decoration: none;
+    width: 160px;
 }
 
 .verde {
- display: inline-block;
- background-color: rgb(60, 167, 87);
- width: 100px;
- color: rgb(255, 255, 255);
- text-align: center;
- box-shadow: 5px 5px 5px rgb(94, 94, 94); 
- 
+    display: inline-block;
+    background-color: rgb(60, 167, 87);
+    width: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(94, 94, 94);
+
 }
 
 .azul {
@@ -68,19 +67,13 @@ header {
     width: 100px;
     color: rgb(255, 255, 255);
     text-align: center;
-    box-shadow: 5px 5px 5px rgb(94, 94, 94); 
-    
-}
-
-
-
-.prueba {
-    width: 70px;
-    display: inline;
-    margin: 20px;
- 
+    box-shadow: 5px 5px 5px rgb(94, 94, 94);
 
 }
+
+
+
+
 
 article {
     position: relative;
@@ -91,7 +84,7 @@ article {
 
 article>h2 {
     font-size: 18px;
-    color:black;
+    color: black;
 }
 
 #logo {
@@ -102,30 +95,27 @@ article>h2 {
 
 .fecha {
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 
 
 a {
     color: aliceblue;
-text-decoration: none;
+    text-decoration: none;
 }
-
-/* .bbi {
-    display: inline-block;
- background-color: rgb(60, 167, 87);
- width: 100px;
- color: rgb(255, 255, 255);
- text-align: center;
- box-shadow: 5px 5px 5px rgb(94, 94, 94); 
-} */
 
 .mail {
     color: blue;
 }
 
-/* h1 {
-    display: inline;
-position: relative;
-bottom: 100;
-} */
+
+.imagenes img {
+width: 400px;
+
+}
+
+.imagenes {
+    display: flex;
+    width: auto;
+}
