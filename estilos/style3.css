@@ -4,6 +4,7 @@ body {
     margin: 0;
 }
 
+main {}
 
 h1 {
     display: inline-block;
@@ -41,9 +42,8 @@ header {
 
 .h3games {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .h3games>h3 {
@@ -121,6 +121,11 @@ header {
 
 }
 
+.contenedor {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
 
 
@@ -129,6 +134,8 @@ header {
     display: flex;
     flex-direction: column;
     text-align: start;
+    width: 100%;
+    max-width: 1000px;
     padding: 30px;
 }
 
@@ -345,7 +352,7 @@ legend {
 
 .botonenviar>input {
     display: flex;
-    font-size: 15;
+    font-size: 25px;
     padding: 10px;
     margin-top: 30px;
     color: aliceblue;
@@ -389,11 +396,12 @@ legend {
 }
 
 
-input, label {
+input,
+label {
     margin: 5px;
     border-radius: 5px;
     border: 0;
-    
+
 }
 
 span {
@@ -404,4 +412,764 @@ span {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+
+iframe {
+    border-radius: 10px;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+
+    header {
+        width: 100%;
+    }
+
+
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 310px;
+    }
+
+    .imagenes>img {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    .imagenesabout>img {
+        width: 90%;
+    }
+
+    .bajoheader>h2 {
+        display: flex;
+        font-size: 20px;
+
+    }
+
+    .bajoheader {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .link {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    footer>p {
+        font-size: 10px;
+        display: flex;
+    }
+
+    .fecha {
+        display: flex;
+        height: 100%;
+        /*         max-height: 500px;
+ */
+    }
+
+    .fecha>p {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        line-height: 100%;
+    }
+
+    #logo {
+        display: flex;
+        width: 90px;
+        left: 120px;
+
+    }
+
+    h1 {
+        position: relative;
+        left: 60px;
+        font-size: medium;
+        height: 40px;
+        top: 100px;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+
+    section {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+    }
+
+    .campos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 300px;
+        margin: 0px;
+    }
+
+
+
+    .rules-policies {
+        display: flex;
+        padding: 0;
+
+        width: 100%;
+        max-width: 310px;
+    }
+
+    .titulo>h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .h3rules {
+        font-size: 15px;
+    }
+
+    .rules-policies>h2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    dd {
+        font-size: 15px;
+        display: flex;
+        width: 300px;
+    }
+
+    dl {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        font-size: 15px;
+    }
+
+    dt {
+        margin: 0;
+        width: 300px;
+        font-size: 15px;
+    }
+
+
+
+    .rules-policies>p {
+        margin-left: 20px;
+    }
+
+
+
+    .maps {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        box-shadow: 0px 6px 10px rgb(151, 151, 151);
+    }
+
+    iframe {
+        border-radius: 10px;
+    }
+
+    .stadio>h3 {
+        position: relative;
+        font-size: 20px;
+        top: 25px;
+
+    }
+
+    .stadio>p {
+        position: relative;
+        font-size: 20px;
+    }
+
+
+
+    .h3games {
+        font-size: 13px;
+    }
+
+    .info2 {
+
+        display: flex;
+        margin-left: 10px;
+        width: 310px;
+    }
+
+    .info2>p {
+        width: 310px;
+    }
+
+    .about {
+        width: 100%;
+        max-width: 320px;
+        margin: 0;
+    }
+
+    .about>dl,
+    dt,
+    dd {
+        text-align: center;
+        margin: 5px;
+        padding: 0;
+    }
+
+    .permissiontoplay>p {
+
+        font-size: 13px;
+        text-align: start;
+
+    }
+
+    .permissiontoplay {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .juegosdelmes {
+        display: flex;
+        width: 100%;
+
+    }
+
+    .botonenviar {
+        display: flex;
+        width: 90%;
+    }
+
+    .contenedorptp {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    header {
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    h1 {
+        position: relative;
+        left: 60px;
+        font-size: 40px;
+        height: 100px;
+    }
+
+    #logo {
+        display: flex;
+        width: 20%;
+        left: 20px;
+
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .bajoheader {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .bajoheader>h2 {
+        display: flex;
+        font-size: 30px;
+
+    }
+
+    .link {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: 120px;
+    }
+
+    .azul {
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+        height: 40px;
+    }
+
+    .fecha {
+        display: flex;
+        height: 100%;
+        max-height: 700px;
+        align-items: center;
+    }
+
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .imagenes>img {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .imagenesabout>img {
+        width: 700px;
+    }
+
+
+
+    footer>p {
+        font-size: 15px;
+        display: flex;
+        margin-left: 10px;
+    }
+
+
+
+    .fecha>p {
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        line-height: 100%;
+    }
+
+
+
+
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+
+    fieldset>legend {
+        font-size: 20px;
+    }
+
+
+
+    section {
+        display: flex;
+        width: 90%;
+        margin: 10px;
+        padding: 2px;
+    }
+
+    .campos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .campos>.rules-policies {
+        display: flex;
+        padding: 0;
+
+        width: 100%;
+    }
+
+    .titulo>h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .h3rules {
+        font-size: 20px;
+    }
+
+    .rules-policies>h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .rules-policies>p {
+        font-size: 20px;
+        margin-left: 25px;
+    }
+
+    .rules-policies>ul {
+        font-size: 15px;
+    }
+
+    dd {
+        font-size: 20px;
+        display: flex;
+        width: auto;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    dl {
+        width: auto;
+    }
+
+    dt {
+        margin: 0;
+        width: auto;
+        font-size: 25px;
+    }
+
+
+
+    .mapconteiner {
+        width: 100%;
+    }
+
+    .maps {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .maps>iframe {
+        width: 100%;
+    }
+
+    .stadio>h3 {
+        font-size: 20px;
+        position: relative;
+        top: 25px;
+        left: 10px;
+
+    }
+
+    .stadio>p {
+        position: relative;
+        font-size: 25px;
+        left: 40px;
+    }
+
+
+
+    .h3games {
+        width: 100%;
+        font-size: 20px;
+
+    }
+
+    table {
+        display: flex;
+        font-size: 25px;
+        width: 95%;
+    }
+
+    .info2 {
+
+        display: flex;
+        width: 100%;
+    }
+
+    .info2>p {
+        max-width: 80%;
+        font-size: 20px;
+
+    }
+
+    .about {
+        width: 100%;
+        margin: 0;
+    }
+
+    .permissiontoplay>p {
+        font-size: 20px;
+    }
+
+    .permissiontoplay>h3 {
+        font-size: 30px;
+    }
+
+    .contenedorcontacto>p {
+        font-size: 25px;
+    }
+
+    iframe {
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1339px) {
+
+    header {
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    h1 {
+        position: relative;
+        left: 120px;
+        font-size: 40px;
+        height: 100px;
+    }
+
+    #logo {
+        display: flex;
+        width: 17%;
+        left: 20px;
+        top: 10px;
+
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .bajoheader {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .bajoheader>h2 {
+        display: flex;
+        font-size: 30px;
+
+    }
+
+    .link {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .azul {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+        width: 130px;
+    }
+
+    .fecha {
+        display: flex;
+        height: 100%;
+        max-height: 700px;
+        align-items: center;
+    }
+
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .imagenes>img {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        margin: 10px;
+        margin-left: 40px;
+    }
+
+
+
+
+
+    footer>p {
+        font-size: 16px;
+        display: flex;
+        margin-left: 10px;
+    }
+
+
+
+    .fecha>p {
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        line-height: 100%;
+    }
+
+
+
+
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+
+    fieldset>legend {
+        font-size: 20px;
+    }
+
+
+
+    section {
+        display: flex;
+        width: 90%;
+        margin: 10px;
+        padding: 2px;
+    }
+
+    .campos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    .campos>.rules-policies {
+        display: flex;
+        padding: 0;
+
+        width: 100%;
+    }
+
+    .titulo>h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .h3rules {
+        font-size: 25px;
+    }
+
+    .rules-policies>h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .rules-policies>p {
+        font-size: 20px;
+        margin-left: 25px;
+    }
+
+    .rules-policies>ul {
+        font-size: 15px;
+    }
+
+    dd {
+        font-size: 18px;
+        display: flex;
+        width: auto;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    dl {
+        width: auto;
+    }
+
+    dt {
+        margin: 0;
+        width: auto;
+        font-size: 20px;
+    }
+
+
+
+    .mapconteiner {
+        width: 100%;
+    }
+
+    .maps {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .maps>iframe {
+        width: 100%;
+    }
+
+    .stadio>h3 {
+        font-size: 20px;
+        position: relative;
+        top: 25px;
+        left: 60px;
+
+    }
+
+    .stadio>p {
+        position: relative;
+        font-size: 25px;
+        left: 80px;
+    }
+
+    table {
+        display: flex;
+    }
+
+    .h3games {
+        width: 100%;
+        font-size: 20px;
+
+    }
+
+    table {
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    .info2 {
+
+        display: flex;
+        width: 100%;
+    }
+
+    .info2>p {
+        max-width: 80%;
+        font-size: 20px;
+
+    }
+
+    .about {
+        width: 100%;
+        margin: 0;
+    }
+
+    .permissiontoplay>p {
+        font-size: 20px;
+    }
+
+    .permissiontoplay>h3 {
+        font-size: 30px;
+    }
+
+    .contenedorcontacto>p {
+        font-size: 25px;
+    }
+
+    iframe {
+        border-radius: 10px;
+    }
 }
